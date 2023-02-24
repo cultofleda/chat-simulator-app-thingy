@@ -1,0 +1,48 @@
+:root {
+  --chat-background: #eee;
+
+  --users-list-background: #fff;
+
+  --message-primary: #4f8a8b;
+  --message-primary-light: #4f8a8b;
+  --message-primary-dark: #357071;
+  --message-secondary: #fbd46d;
+  --message-secondary-dark: #f7c643;
+
+  --message-color-primary: #eeeeee;
+  --message-color-secondary: #142121;
+
+  --user-input-background: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 14px;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+body {
+  font-size: 1rem;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
